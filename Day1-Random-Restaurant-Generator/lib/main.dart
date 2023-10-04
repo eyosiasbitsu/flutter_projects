@@ -25,10 +25,11 @@ class _MyAppState extends State<MyApp>{
   ];
 
   int currentIndex = 0;
-
+  
   @override
   Widget build(BuildContext context){
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
           child: Column(
